@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5% 0% 0.5% 0.5%;
+  border: 2px solid;
+  margin: 1%;
+}
+
+.item > img {
+  margin-right: 1%;
+}
+
+.rest-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.rest-item > p {
+  padding: 0%;
+  margin: 0%;
+  text-align: left;
+}
