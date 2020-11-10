@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
+import Greetings from './components/Greetings';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
               height={172}
               birth="1988-05-11"
               picture="https://randomuser.me/api/portraits/women/44.jpg" />
+      <Greetings lang="de" children="Ludwig" />
+      <Greetings lang="fr" children="François" />
     </div>
   );
 }
